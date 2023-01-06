@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.studentattendancedata {
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custome-btn {
   color: white;
+  background-color: #2d2d2d;
+  margin-top: 18px;
+  width: 95px;
+  margin-left: 136px;
+  margin-bottom: 33px;
 }
 
-.App-link {
-  color: #61dafb;
+.custome-btn:hover {
+  color: white;
+  background-color: #444444;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.total-student {}
+
+@media only screen and (max-width: 785px) {
+  .left-col {
+    flex-basis: 100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 330px) {
+  .custome-btn {
+    margin-left: 0px;
   }
 }
